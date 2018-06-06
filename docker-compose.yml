@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  opendevframework.mvc:
+    image: ${DOCKER_REGISTRY}opendevframeworkmvc
+    build:
+      context: .
+      dockerfile: OpenDevFramework.MVC\Dockerfile
